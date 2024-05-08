@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <title>2310-4C_MOM_2-Profundizacion</title>
@@ -39,11 +42,166 @@
     </div>
   </header>
   <main>
-    <section id="informacion"></section>
+    <section id="informacion">
+      <div class="container general">
+        <p>
+          <a href="https://ucompensar.edu.co/">INICIO</a> /
+          <a href="https://ucompensar.edu.co/programas/">PROGRAMAS</a>
+          / INGENIERÍA DE SOFTWARE – BOGOTÁ
+        </p>
+        <div class="modalidad">
+          <span>Presencial</span>
+        </div>
+        <div class="texto">
+          <h3>Ingeniería de Software – Bogotá</h3>
+          <p>Desarrolla soluciones de <b>software</b> y conviértete en un líder digital de uno de los sectores con
+            mayor
+            crecimiento del mercado. Obtén tres titulaciones a lo largo de tu formación</p>
+          <button>Inscríbete aquí</button>
+        </div>
+        <form action="submit">
+          <div class="form__group">
+            <label class="form_label_select"for="esEstudiante">
+              ¿Eres estudiante UCompensar?</label>
+            <select class="form_select" id="esEstudiante" name="esEstudiante">
+              <option>--Ninguno--</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <input class="form__field" type="text" id="nombre" name="nombre">
+            <label class="form__label" for="nombre">Nombre</label>
+          </div>
+          <div class="form__group">
+            <input class="form__field" type="text" id="apellido" name="apellido">
+            <label class="form__label" for="apellido">Apellido</label>
+          </div>
+          <div class="form__group">
+            <input class="form__field" type="text" id="email" name="email">
+            <label class="form__label" for="email">Email</label>
+          </div>
+          <div class="form__group">
+            <input class="form__field" type="text" id="numero" name="numero">
+            <label class="form__label" for="numero">Numero de contacto</label>
+          </div>
+          <div class="form__group">
+            <input class="form__field" type="text" id="documento" name="documento">
+            <label class="form__label" for="documento">Numero de documento</label>
+          </div>
+          <div class="form__group">
+            <label for="contacto">
+              Canal preferido de contacto</label>
+            <select id="contacto" name="contacto">
+              <option>Canal preferido de contacto</option>
+              <option value="todos">Todos</option>
+              <option value="correo">Correo</option>
+              <option value="telefono">Teléfono</option>
+              <option value="whatsapp">Whatsapp</option>
+              <option value="sms">SMS</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="entero">
+              Como se entero:</label>
+            <select id="entero" name="entero">
+              <option>--Ninguno--</option>
+              <option value="buscadores">Buscadores</option>
+              <option value="publicidad">Publicidad</option>
+              <option value="redes">Redes Sociales</option>
+              <option value="recomendacion">Recomendación de un amigo</option>
+              <option value="correo">Correo Electrónico</option>
+              <option value="llamada">Llamada telefónica</option>
+              <option value="Evento">Evento - Feria</option>
+              <option value="visita">Visita a la U</option>
+              <option value="radio">Radio</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form__group checkbtn">
+            <input class="btncheck" type="checkbox" id="acepto" name="acepto">
+            <label for="acepto">Acepto la Política de Protección de Datos Personales</label>
+          </div>
+          <div>
+            <button class="btnEnviar">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="container imagen">
+        <img src="https://ucompensar.edu.co/wp-content/uploads/2021/04/ingenieria-software-ucompensar.jpg" alt="">
+        <div class="lista-informacion">
+          <ul>
+            <li><b>SNIES:</b> 109130</li>
+            <li><b>Resolución:</b> 9058 del 28 de agosto de 2019</li>
+            <li><b>Duración del programa:</b> 10 semestres</li>
+            <li><b>Facultad de:</b> Ingeniería</li>
+            <li><b>Años de vigencia:</b> 7 años</li>
+            <li><b>Jornada diurna:</b> 7:00 a.m. a 1:00 p.m.</li>
+            <li><b>Jornada nocturna:</b> 6:00 p.m. a 10:00 p.m.</li>
+            <li><b>Ver tarifas de créditos:</b> <a
+                href="https://ucompensar.edu.co/wp-content/uploads/2024/01/ProgramaINGENIERIA-DE-SOFTWARE-BOGOTA.pdf">Aquí</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section id="titulaciones"></section>
     <section id="campo_laboral"></section>
     <section id="matriculas"></section>
   </main>
+
+  <!-- @author: Einer Aponte -->
+  <section class="container">
+    <div class="titulaciones">
+      <div class="titulaciones__titulo">
+        <h2 class="titulaciones__titulo-h2">Titulaciones</h2>
+      </div>
+
+      <div class="titulaciones__cards">
+          <div class="titulaciones__card">
+            <div class="titulaciones__card-contenido">
+              <span>Técnica Profesional en</span>
+              <span>PROGRAMACIÓN DE APLICACIONES DE SOFTWARE</span>
+              <div class="titulaciones__card-contenido-resoluciones">
+                <span>Resolucion 9059 del 28 de agoste de 2019</span>
+                <span>Años de vvigencia: 7 años</span>
+                <span>SNIES: 108334</span>
+              </div>
+              <a class="titulaciones__card-enlace" href="#">Ver tarifas de créditos aqui</a>
+            </div>
+          </div>
+
+          <div class="titulaciones__card">
+            <div class="titulaciones__card-contenido">
+              <span>Tecnología en</span>
+              <span>DESARROLLO DE APLICACIONES WEB Y MÓVILES</span>
+              <div class="titulaciones__card-contenido-resoluciones">
+                <span>Resolucion 9057 del 28 de agoste de 2019</span>
+                <span>Años de vvigencia: 7 años</span>
+                <span>SNIES: 108335</span>
+              </div>
+              <a class="titulaciones__card-enlace" href="#">Ver tarifas de créditos aqui</a>
+            </div>
+          </div>
+
+          <div class="titulaciones__card">
+            <div class="titulaciones__card-contenido">
+              <span>Profesional en</span>
+              <span>INGENIERÍA DE SOFTWARE</span>
+              <div class="titulaciones__card-contenido-resoluciones">
+                <span>Resolucion 9058 del 28 de agoste de 2019</span>
+                <span>Años de vvigencia: 7 años</span>
+                <span>SNIES: 109130</span>
+              </div>
+              <a class="titulaciones__card-enlace" href="#">Ver tarifas de créditos aqui</a>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+
   <footer></footer>
 </body>
 
