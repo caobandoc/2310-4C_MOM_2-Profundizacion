@@ -250,7 +250,7 @@ form select:focus {
 
 /* informacion derecha */
 
-.imagen img {
+.imagen-des img {
   width: 100%;
 }
 
@@ -345,6 +345,153 @@ form select:focus {
 }
 /* campo laboral */
 
+#campo_laboral {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+#campo_laboral .contenedor {
+  width: 30%;
+}
+
+#campo_laboral .imagen {
+  width: 70%;
+}
+
+.imagen {
+  display: flex; /* Usa flexbox para el diseño */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+.imagen img {
+  width: 55%; /* Ajusta el ancho de cada imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-left:1rem;
+}
+.laboral-heading h2{
+
+  font-size:50px;
+  padding-bottom: 10px;
+  
+}
+/* Estilo para la lista */
+
+.laboral-text ul {
+  list-style-type: disc; 
+  padding-left: 20px;
+  margin-right: 90px;
+}
+
+.laboral-text li {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  font-size:19px;
+}
+.laboral-ul{
+
+  margin-left: 18px;
+}
 /* matriculas */
 
+#matriculas {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-color: #e9edf0;
+}
+
+#matriculas .matricula-container {
+  width: 100%;
+}
+.titulo h3{
+  font-size:60px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.text-matricula p{
+  font-size:20px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#info-matricula {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+#info-matricula .info-matricula-img {
+  width: 55%;
+}
+
+#info-matricula .info-matricula-text {
+  width: 45%;
+}
+.matricula-heading h3{
+
+  font-size:50px;
+  padding-bottom: 50px;
+  
+}
+.info-matricula-text ul {
+  list-style-type: disc; /* Establece el tipo de viñeta */
+  padding-left: 20px;
+  margin-right: 90px;
+  margin-left: 22px;
+
+}
+
+.info-matricula-text li {
+  margin-bottom: 25px;
+  margin-right: 10px;
+  font-size: 21px;
+  color: black; /* Establece el color del texto a negro */
+  
+}
+
+.info-matricula-text ul li::marker{
+  color: #f60; /* Establece el color de los puntos de viñetas a naranja */
+}
+
+.content-titulo{
+  font-size:40px;
+  padding: 20px;
+  color: #f60;
+  border-bottom: 2px solid #f60;
+  width: 50%;
+}
+
+.content-parrafo{
+  font-size:18px;
+  padding-top: 20px;
+  padding-right: 45px;
+}
+.content-parrafo p{
+  line-height: 1.5em;
+}
+
+.info-matricula-img img{
+  width: 80%;
+  padding-right: 10px;
+}
+
+
+.content-bottom {
+  width: 338px;
+  height: 48px;
+  background: #446d89;
+  line-height: 32px;
+  padding: 8px 12px 12px 75px;
+  
+
+}
+.content-bottom a{
+  color: #fff;
+  font-size: 25px;
+ 
+  
+}
 /* footer */
