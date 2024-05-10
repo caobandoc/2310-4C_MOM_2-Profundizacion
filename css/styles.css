@@ -1,78 +1,170 @@
-/* general */
-body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+/*FOOTER*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
+.body {
+  font-family: sans-serif;
+  text-transform: capitalize;
 }
 
-/* nav */
-header {
-  margin-top: 1rem;
-  padding: 0 1rem;
-  border-bottom: 1px solid #e6e6e6;
+.footer {
+  background-color: #52545D;
+  padding: 10px;
+  color: white;
 }
 
-nav {
-  max-width: 1400px;
+.containerr {
+  background: #52545D;
+  max-width: 1300px;
+  max-height: 1000px;
   margin: 0 auto;
+}
+
+.seccion1 {
+  background: #52545D;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  height: 100%;
   width: 100%;
 }
 
-nav img {
-  width: 336px;
+
+/*inicio seccion 1*/
+.contenedor1 {
+  background: #52545D;
+  height: 350px;
+  width: 45%;
+  font-size: small;
+  color: white;
 }
 
-nav ul {
-  padding-top: 2rem;
+.footer-tex1 {
+  font-size: small;
+  line-height: 1.5em;
 }
 
-nav li {
-  float: left;
-  margin-left: 40px;
+.footer-row {
+  font-size: small;
 }
 
-nav a {
-  font-style: italic;
+.footer-tex1 h2 {
+  background-color: #52545D;
+  font-size: 20px;
+  height: 60px;
+  width: 25em;
 }
 
-/* menu */
-#menu {
-  max-width: 1400px;
-  margin: 0 auto;
+.footer-tex2 h2 {
+  font-size: 20px;
+  background-color: #52545D;
+  width: 25em;
+}
+
+.footer3-row h2 {
+  font-size: 20px;
+}
+
+.footer-tex2 a i {
+  background-color: #52545D;
+  font-size: 20px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.footer-tex1 {
+  font-size: small;
+}
+
+.footer-tex2 a {
+  text-align: left;
+}
+
+/*final seccion 1*/
+
+/*inicio seccion 2*/
+.contenedor2 {
+  background-color: #6c757d;
+  height: 300px;
+  width: 60%;
   display: flex;
-  flex-direction: row;
-  justify-content: end;
-  font-weight: 700;
-  padding: 30px 0;
-  font-size: 18px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
-#menu ul {
+.contenedor2.footer2-row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+.footer2-row {
+  color: white;
+  height: 55%;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.footer2-row2 {
+  color: white;
+  height: 55%;
+  width: 200px;
+  margin-top: 10px;
+
+}
+
+.footer2-row3 img {
+  max-width: 70px;
+  height: auto;
+  margin-top: -60px;
+}
+
+.footer2-row3 {
+  margin-top: 10px;
+}
+
+.footer-tex1 hr {
+  width: 95%;
+}
+
+
+/*final seccion 2*/
+
+/*inicio seccion 3*/
+
+.seccion2 {
+  width: 1300px;
+  height: 150px;
+  color: #f60;
+}
+
+
+nav>ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-#menu li {
-  margin-left: 40px;
+li {
+  margin: 0.5rem;
 }
 
-#menu span {
-  margin-left: 40px;
+.footer3-row2 ul {
+  list-style: none;
 }
 
-/* Informacion */
+.footer3-row2 {
+  text-align: left;
+}
 
-/* Titulaciones */
+.footer3-row2 a {
+  text-decoration: none;
+}
 
-/* campo laboral */
-
-/* matriculas */
-
-/* footer */
+/*final seccion 3*/
