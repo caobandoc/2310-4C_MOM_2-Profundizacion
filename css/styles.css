@@ -10,7 +10,12 @@ a {
   color: #000;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -227,7 +232,7 @@ form select:focus {
   border-bottom: 2px solid #f60;
 }
 
-.checkbtn{
+.checkbtn {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
@@ -235,11 +240,11 @@ form select:focus {
   flex-direction: row;
 }
 
-.btncheck{
+.btncheck {
   width: 30px !important;
 }
 
-.btnEnviar{
+.btnEnviar {
   padding: 10px 20px;
   background-color: #f60;
   color: white;
@@ -259,52 +264,52 @@ form select:focus {
   padding: 15px 30px 5px;
 }
 
-.lista-informacion li{
+.lista-informacion li {
   font-size: 16px;
   color: white;
   padding-bottom: 10px;
 }
 
-.lista-informacion li a{
+.lista-informacion li a {
   color: white;
   /* subrayado */
   text-decoration: underline;
 }
 
-.lista-informacion li a:hover{
+.lista-informacion li a:hover {
   text-decoration: none;
 
 }
 
 /* Titulaciones */
-.container{
+.container {
   max-width: 1200px;
   margin: 50px auto;
 }
 
-.titulaciones{
+.titulaciones {
   display: flex;
   flex-direction: column;
   gap: 5rem;
 }
 
-.titulaciones__titulo{
+.titulaciones__titulo {
   text-align: center;
   font-size: 32px;
 }
 
-.titulaciones__titulo-h2{
+.titulaciones__titulo-h2 {
   color: #00233b;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.titulaciones__cards{
+.titulaciones__cards {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-.titulaciones__card{
+.titulaciones__card {
   width: 300px;
   height: 300px;
   background-color: #f7f7f5;
@@ -314,7 +319,7 @@ form select:focus {
   align-items: center;
 }
 
-.titulaciones__card-contenido{
+.titulaciones__card-contenido {
   width: 90%;
   height: 100%;
   display: flex;
@@ -326,23 +331,28 @@ form select:focus {
   text-align: center;
 }
 
-.titulaciones__card-contenido span{
+.titulaciones__card-contenido span {
   display: block;
 }
-.titulaciones__card-contenido > span:nth-child(1){
+
+.titulaciones__card-contenido>span:nth-child(1) {
   font-size: 18px;
 }
-.titulaciones__card-contenido > span:nth-child(2){
+
+.titulaciones__card-contenido>span:nth-child(2) {
   font-size: 20px;
 }
-.titulaciones__card-contenido-resoluciones{
+
+.titulaciones__card-contenido-resoluciones {
   font-size: 10px;
 }
-.titulaciones__card-enlace{
+
+.titulaciones__card-enlace {
   color: #ff6600;
   font-size: 20px;
   text-decoration: underline;
 }
+
 /* campo laboral */
 
 #campo_laboral {
@@ -361,25 +371,31 @@ form select:focus {
 }
 
 .imagen {
-  display: flex; /* Usa flexbox para el diseño */
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  display: flex;
+  /* Usa flexbox para el diseño */
+  justify-content: space-between;
+  /* Distribuye el espacio entre los elementos */
 }
 
 .imagen img {
-  width: 55%; /* Ajusta el ancho de cada imagen */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin-left:1rem;
+  width: 55%;
+  /* Ajusta el ancho de cada imagen */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+  margin-left: 1rem;
 }
-.laboral-heading h2{
 
-  font-size:50px;
+.laboral-heading h2 {
+
+  font-size: 50px;
   padding-bottom: 10px;
-  
+
 }
+
 /* Estilo para la lista */
 
 .laboral-text ul {
-  list-style-type: disc; 
+  list-style-type: disc;
   padding-left: 20px;
   margin-right: 90px;
 }
@@ -387,12 +403,14 @@ form select:focus {
 .laboral-text li {
   margin-bottom: 5px;
   margin-right: 10px;
-  font-size:19px;
+  font-size: 19px;
 }
-.laboral-ul{
+
+.laboral-ul {
 
   margin-left: 18px;
 }
+
 /* matriculas */
 
 #matriculas {
@@ -406,23 +424,27 @@ form select:focus {
 #matriculas .matricula-container {
   width: 100%;
 }
-.titulo h3{
-  font-size:60px;
+
+.titulo h3 {
+  font-size: 60px;
   text-align: center;
   margin-top: 2rem;
 }
-.text-matricula p{
-  font-size:20px;
+
+.text-matricula p {
+  font-size: 20px;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 #info-matricula {
   display: flex;
   max-width: 1400px;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
+
 #info-matricula .info-matricula-img {
   width: 55%;
 }
@@ -430,14 +452,17 @@ form select:focus {
 #info-matricula .info-matricula-text {
   width: 45%;
 }
-.matricula-heading h3{
 
-  font-size:50px;
+.matricula-heading h3 {
+
+  font-size: 50px;
   padding-bottom: 50px;
-  
+
 }
+
 .info-matricula-text ul {
-  list-style-type: disc; /* Establece el tipo de viñeta */
+  list-style-type: disc;
+  /* Establece el tipo de viñeta */
   padding-left: 20px;
   margin-right: 90px;
   margin-left: 22px;
@@ -448,32 +473,35 @@ form select:focus {
   margin-bottom: 25px;
   margin-right: 10px;
   font-size: 21px;
-  color: black; /* Establece el color del texto a negro */
-  
+  color: black;
+  /* Establece el color del texto a negro */
+
 }
 
-.info-matricula-text ul li::marker{
-  color: #f60; /* Establece el color de los puntos de viñetas a naranja */
+.info-matricula-text ul li::marker {
+  color: #f60;
+  /* Establece el color de los puntos de viñetas a naranja */
 }
 
-.content-titulo{
-  font-size:40px;
+.content-titulo {
+  font-size: 40px;
   padding: 20px;
   color: #f60;
   border-bottom: 2px solid #f60;
   width: 50%;
 }
 
-.content-parrafo{
-  font-size:18px;
+.content-parrafo {
+  font-size: 18px;
   padding-top: 20px;
   padding-right: 45px;
 }
-.content-parrafo p{
+
+.content-parrafo p {
   line-height: 1.5em;
 }
 
-.info-matricula-img img{
+.info-matricula-img img {
   width: 80%;
   padding-right: 10px;
 }
@@ -485,13 +513,198 @@ form select:focus {
   background: #446d89;
   line-height: 32px;
   padding: 8px 12px 12px 75px;
-  
+
 
 }
-.content-bottom a{
+
+.content-bottom a {
   color: #fff;
   font-size: 25px;
- 
-  
+
+
 }
+
 /* footer */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #2C3E50;
+  padding: 100px;
+  color: white;
+}
+
+.containerr {
+  background: #2C3E50;
+  max-width: 2000px;
+  max-height: 1500px;
+  margin: 0 auto;
+}
+
+.seccion1 {
+  background: #2C3E50;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*inicio seccion 1*/
+.contenedor1 {
+  background: #2C3E50;
+  height: 350px;
+  width: 45%;
+  font-size: small;
+  color: white;
+}
+
+.footer-tex1 {
+  font-size: xx-small;
+  line-height: 2.5em;
+  position: relative;
+  left: 50px
+}
+
+.footer-row {
+  font-size: small;
+}
+
+.footer-tex1 h2 {
+  background-color: #2C3E50;
+  font-size: 20px;
+  height: 60px;
+  width: 25em;
+}
+
+.footer-tex2 h2 {
+  font-size: 20px;
+  background-color: #2C3E50;
+  width: 25em;
+  position: relative;
+  left: 50px;
+}
+
+.footer3-row h2 {
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+}
+
+.footer-tex2 a i {
+  background-color: #2C3E50;
+  font-size: 20px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+
+
+.footer-tex2 a {
+  background-color: #2C3E50;
+  text-align: left;
+  position: relative;
+  left: 320px;
+  font-size: 22px;
+}
+
+/*final seccion 1*/
+
+/*inicio seccion 2*/
+.contenedor2 {
+  background-color: #6c757d;
+  height: 300px;
+  width: 50%;
+  display: flex;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  position: relative;
+  left: -40px;
+}
+
+.contenedor2.footer2-row {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  margin: -25px 0 0 -25px;
+}
+
+.footer2-row {
+  color: white;
+  height: 55%;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.footer2-row2 {
+  color: white;
+  height: 55%;
+  width: 200px;
+  margin-top: 10px;
+
+}
+
+.footer2-row3 img {
+  max-width: 70px;
+  height: auto;
+  margin-top: -60px;
+}
+
+.footer2-row3 {
+  margin-top: 10px;
+}
+
+.footer-tex1 hr {
+  width: 85%;
+}
+
+.footer3-row hr {
+  width: 150%;
+}
+
+
+/*final seccion 2*/
+
+/*inicio seccion 3*/
+
+.seccion2 {
+  width: 1300px;
+  height: 150px;
+  color: #f60;
+}
+
+
+nav>ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0.5rem;
+}
+
+.footer3-row2 ul {
+  list-style: none;
+}
+
+.footer3-row2 {
+  text-align: left;
+}
+
+.footer3-row2 a {
+  text-decoration: none;
+}
+
+/*final seccion 3*/
